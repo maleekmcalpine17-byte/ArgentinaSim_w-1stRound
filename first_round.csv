@@ -1,0 +1,673 @@
+year,province,candidate,party,votes
+2003,Buenos Aires City (CABA),Carlos Menem,Frente por la Lealtad (PJ),310127
+2003,Buenos Aires City (CABA),Néstor Kirchner,Frente para la Victoria (PJ),381380
+2003,Buenos Aires City (CABA),Ricardo López Murphy,Recrear para el Crecimiento,501854
+2003,Buenos Aires City (CABA),Adolfo Rodríguez Saá,Frente Movimiento Popular,155992
+2003,Buenos Aires City (CABA),Elisa Carrió,ARI,378665
+2003,Buenos Aires City (CABA),Others,Other candidates,194458
+2003,Buenos Aires Province,Carlos Menem,Frente por la Lealtad (PJ),1481220
+2003,Buenos Aires Province,Néstor Kirchner,Frente para la Victoria (PJ),1859437
+2003,Buenos Aires Province,Ricardo López Murphy,Recrear para el Crecimiento,1155600
+2003,Buenos Aires Province,Adolfo Rodríguez Saá,Frente Movimiento Popular,992559
+2003,Buenos Aires Province,Elisa Carrió,ARI,1112282
+2003,Buenos Aires Province,Others,Other candidates,648032
+2003,Catamarca,Carlos Menem,Frente por la Lealtad (PJ),83165
+2003,Catamarca,Néstor Kirchner,Frente para la Victoria (PJ),23002
+2003,Catamarca,Ricardo López Murphy,Recrear para el Crecimiento,19691
+2003,Catamarca,Adolfo Rodríguez Saá,Frente Movimiento Popular,18048
+2003,Catamarca,Elisa Carrió,ARI,6633
+2003,Catamarca,Others,Other candidates,17858
+2003,Córdoba,Carlos Menem,Frente por la Lealtad (PJ),469438
+2003,Córdoba,Néstor Kirchner,Frente para la Victoria (PJ),180800
+2003,Córdoba,Ricardo López Murphy,Recrear para el Crecimiento,359384
+2003,Córdoba,Adolfo Rodríguez Saá,Frente Movimiento Popular,311359
+2003,Córdoba,Elisa Carrió,ARI,183683
+2003,Córdoba,Others,Other candidates,139267
+2003,Corrientes,Carlos Menem,Frente por la Lealtad (PJ),175981
+2003,Corrientes,Néstor Kirchner,Frente para la Victoria (PJ),126503
+2003,Corrientes,Ricardo López Murphy,Recrear para el Crecimiento,57434
+2003,Corrientes,Adolfo Rodríguez Saá,Frente Movimiento Popular,28901
+2003,Corrientes,Elisa Carrió,ARI,54243
+2003,Corrientes,Others,Other candidates,62782
+2003,Chaco,Carlos Menem,Frente por la Lealtad (PJ),170557
+2003,Chaco,Néstor Kirchner,Frente para la Victoria (PJ),94028
+2003,Chaco,Ricardo López Murphy,Recrear para el Crecimiento,31701
+2003,Chaco,Adolfo Rodríguez Saá,Frente Movimiento Popular,22783
+2003,Chaco,Elisa Carrió,ARI,54566
+2003,Chaco,Others,Other candidates,105496
+2003,Chubut,Carlos Menem,Frente por la Lealtad (PJ),38258
+2003,Chubut,Néstor Kirchner,Frente para la Victoria (PJ),103751
+2003,Chubut,Ricardo López Murphy,Recrear para el Crecimiento,17178
+2003,Chubut,Adolfo Rodríguez Saá,Frente Movimiento Popular,9572
+2003,Chubut,Elisa Carrió,ARI,22388
+2003,Chubut,Others,Other candidates,13329
+2003,Entre Ríos,Carlos Menem,Frente por la Lealtad (PJ),184064
+2003,Entre Ríos,Néstor Kirchner,Frente para la Victoria (PJ),129053
+2003,Entre Ríos,Ricardo López Murphy,Recrear para el Crecimiento,89399
+2003,Entre Ríos,Adolfo Rodríguez Saá,Frente Movimiento Popular,86714
+2003,Entre Ríos,Elisa Carrió,ARI,75174
+2003,Entre Ríos,Others,Other candidates,54289
+2003,Formosa,Carlos Menem,Frente por la Lealtad (PJ),63360
+2003,Formosa,Néstor Kirchner,Frente para la Victoria (PJ),93204
+2003,Formosa,Ricardo López Murphy,Recrear para el Crecimiento,15565
+2003,Formosa,Adolfo Rodríguez Saá,Frente Movimiento Popular,20895
+2003,Formosa,Elisa Carrió,ARI,23904
+2003,Formosa,Others,Other candidates,21035
+2003,Jujuy,Carlos Menem,Frente por la Lealtad (PJ),49770
+2003,Jujuy,Néstor Kirchner,Frente para la Victoria (PJ),114787
+2003,Jujuy,Ricardo López Murphy,Recrear para el Crecimiento,16226
+2003,Jujuy,Adolfo Rodríguez Saá,Frente Movimiento Popular,47360
+2003,Jujuy,Elisa Carrió,ARI,18226
+2003,Jujuy,Others,Other candidates,20813
+2003,La Pampa,Carlos Menem,Frente por la Lealtad (PJ),56135
+2003,La Pampa,Néstor Kirchner,Frente para la Victoria (PJ),34339
+2003,La Pampa,Ricardo López Murphy,Recrear para el Crecimiento,27949
+2003,La Pampa,Adolfo Rodríguez Saá,Frente Movimiento Popular,38258
+2003,La Pampa,Elisa Carrió,ARI,23370
+2003,La Pampa,Others,Other candidates,20054
+2003,La Rioja,Carlos Menem,Frente por la Lealtad (PJ),113288
+2003,La Rioja,Néstor Kirchner,Frente para la Victoria (PJ),9078
+2003,La Rioja,Ricardo López Murphy,Recrear para el Crecimiento,6379
+2003,La Rioja,Adolfo Rodríguez Saá,Frente Movimiento Popular,4408
+2003,La Rioja,Elisa Carrió,ARI,2610
+2003,La Rioja,Others,Other candidates,3927
+2003,Mendoza,Carlos Menem,Frente por la Lealtad (PJ),168251
+2003,Mendoza,Néstor Kirchner,Frente para la Victoria (PJ),85882
+2003,Mendoza,Ricardo López Murphy,Recrear para el Crecimiento,168528
+2003,Mendoza,Adolfo Rodríguez Saá,Frente Movimiento Popular,330305
+2003,Mendoza,Elisa Carrió,ARI,79001
+2003,Mendoza,Others,Other candidates,61965
+2003,Misiones,Carlos Menem,Frente por la Lealtad (PJ),167933
+2003,Misiones,Néstor Kirchner,Frente para la Victoria (PJ),99634
+2003,Misiones,Ricardo López Murphy,Recrear para el Crecimiento,38035
+2003,Misiones,Adolfo Rodríguez Saá,Frente Movimiento Popular,38196
+2003,Misiones,Elisa Carrió,ARI,39339
+2003,Misiones,Others,Other candidates,47173
+2003,Neuquén,Carlos Menem,Frente por la Lealtad (PJ),59670
+2003,Neuquén,Néstor Kirchner,Frente para la Victoria (PJ),61048
+2003,Neuquén,Ricardo López Murphy,Recrear para el Crecimiento,40638
+2003,Neuquén,Adolfo Rodríguez Saá,Frente Movimiento Popular,19238
+2003,Neuquén,Elisa Carrió,ARI,40375
+2003,Neuquén,Others,Other candidates,17392
+2003,Río Negro,Carlos Menem,Frente por la Lealtad (PJ),50128
+2003,Río Negro,Néstor Kirchner,Frente para la Victoria (PJ),99276
+2003,Río Negro,Ricardo López Murphy,Recrear para el Crecimiento,43984
+2003,Río Negro,Adolfo Rodríguez Saá,Frente Movimiento Popular,20975
+2003,Río Negro,Elisa Carrió,ARI,47270
+2003,Río Negro,Others,Other candidates,30520
+2003,Salta,Carlos Menem,Frente por la Lealtad (PJ),205187
+2003,Salta,Néstor Kirchner,Frente para la Victoria (PJ),61826
+2003,Salta,Ricardo López Murphy,Recrear para el Crecimiento,92282
+2003,Salta,Adolfo Rodríguez Saá,Frente Movimiento Popular,31673
+2003,Salta,Elisa Carrió,ARI,40360
+2003,Salta,Others,Other candidates,33834
+2003,San Juan,Carlos Menem,Frente por la Lealtad (PJ),92433
+2003,San Juan,Néstor Kirchner,Frente para la Victoria (PJ),72255
+2003,San Juan,Ricardo López Murphy,Recrear para el Crecimiento,34115
+2003,San Juan,Adolfo Rodríguez Saá,Frente Movimiento Popular,131012
+2003,San Juan,Elisa Carrió,ARI,12820
+2003,San Juan,Others,Other candidates,18951
+2003,San Luis,Carlos Menem,Frente por la Lealtad (PJ),6113
+2003,San Luis,Néstor Kirchner,Frente para la Victoria (PJ),3348
+2003,San Luis,Ricardo López Murphy,Recrear para el Crecimiento,8489
+2003,San Luis,Adolfo Rodríguez Saá,Frente Movimiento Popular,182644
+2003,San Luis,Elisa Carrió,ARI,8158
+2003,San Luis,Others,Other candidates,6437
+2003,Santa Cruz,Carlos Menem,Frente por la Lealtad (PJ),8279
+2003,Santa Cruz,Néstor Kirchner,Frente para la Victoria (PJ),84522
+2003,Santa Cruz,Ricardo López Murphy,Recrear para el Crecimiento,4659
+2003,Santa Cruz,Adolfo Rodríguez Saá,Frente Movimiento Popular,2585
+2003,Santa Cruz,Elisa Carrió,ARI,5837
+2003,Santa Cruz,Others,Other candidates,5203
+2003,Santa Fe,Carlos Menem,Frente por la Lealtad (PJ),434197
+2003,Santa Fe,Néstor Kirchner,Frente para la Victoria (PJ),276723
+2003,Santa Fe,Ricardo López Murphy,Recrear para el Crecimiento,296167
+2003,Santa Fe,Adolfo Rodríguez Saá,Frente Movimiento Popular,144427
+2003,Santa Fe,Elisa Carrió,ARI,425216
+2003,Santa Fe,Others,Other candidates,127809
+2003,Santiago del Estero,Carlos Menem,Frente por la Lealtad (PJ),146256
+2003,Santiago del Estero,Néstor Kirchner,Frente para la Victoria (PJ),142934
+2003,Santiago del Estero,Ricardo López Murphy,Recrear para el Crecimiento,23518
+2003,Santiago del Estero,Adolfo Rodríguez Saá,Frente Movimiento Popular,15966
+2003,Santiago del Estero,Elisa Carrió,ARI,12955
+2003,Santiago del Estero,Others,Other candidates,16084
+2003,Tucumán,Carlos Menem,Frente por la Lealtad (PJ),195473
+2003,Tucumán,Néstor Kirchner,Frente para la Victoria (PJ),151701
+2003,Tucumán,Ricardo López Murphy,Recrear para el Crecimiento,120952
+2003,Tucumán,Adolfo Rodríguez Saá,Frente Movimiento Popular,78902
+2003,Tucumán,Elisa Carrió,ARI,49181
+2003,Tucumán,Others,Other candidates,31817
+2003,Tierra del Fuego,Carlos Menem,Frente por la Lealtad (PJ),11917
+2003,Tierra del Fuego,Néstor Kirchner,Frente para la Victoria (PJ),24622
+2003,Tierra del Fuego,Ricardo López Murphy,Recrear para el Crecimiento,3856
+2003,Tierra del Fuego,Adolfo Rodríguez Saá,Frente Movimiento Popular,3319
+2003,Tierra del Fuego,Elisa Carrió,ARI,6949
+2003,Tierra del Fuego,Others,Other candidates,2953
+2007,Buenos Aires City (CABA),Elisa Carrió,Coalición Cívica,714976
+2007,Buenos Aires City (CABA),Cristina Fernández de Kirchner,Frente para la Victoria,448551
+2007,Buenos Aires City (CABA),Roberto Lavagna,Concertación UNA,346745
+2007,Buenos Aires City (CABA),Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",154929
+2007,Buenos Aires City (CABA),Others,Other candidates,209223
+2007,Buenos Aires Province,Elisa Carrió,Coalición Cívica,1817325
+2007,Buenos Aires Province,Cristina Fernández de Kirchner,Frente para la Victoria,3259936
+2007,Buenos Aires Province,Roberto Lavagna,Concertación UNA,956337
+2007,Buenos Aires Province,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",445015
+2007,Buenos Aires Province,Others,Other candidates,566247
+2007,Catamarca,Elisa Carrió,Coalición Cívica,17720
+2007,Catamarca,Cristina Fernández de Kirchner,Frente para la Victoria,82858
+2007,Catamarca,Roberto Lavagna,Concertación UNA,32742
+2007,Catamarca,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",17018
+2007,Catamarca,Others,Other candidates,8415
+2007,Córdoba,Elisa Carrió,Coalición Cívica,309574
+2007,Córdoba,Cristina Fernández de Kirchner,Frente para la Victoria,388546
+2007,Córdoba,Roberto Lavagna,Concertación UNA,570529
+2007,Córdoba,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",234520
+2007,Córdoba,Others,Other candidates,108313
+2007,Corrientes,Elisa Carrió,Coalición Cívica,101570
+2007,Corrientes,Cristina Fernández de Kirchner,Frente para la Victoria,234384
+2007,Corrientes,Roberto Lavagna,Concertación UNA,63256
+2007,Corrientes,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",21680
+2007,Corrientes,Others,Other candidates,13430
+2007,Chaco,Elisa Carrió,Coalición Cívica,104999
+2007,Chaco,Cristina Fernández de Kirchner,Frente para la Victoria,245076
+2007,Chaco,Roberto Lavagna,Concertación UNA,107366
+2007,Chaco,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",19776
+2007,Chaco,Others,Other candidates,17376
+2007,Chubut,Elisa Carrió,Coalición Cívica,43613
+2007,Chubut,Cristina Fernández de Kirchner,Frente para la Victoria,159837
+2007,Chubut,Roberto Lavagna,Concertación UNA,23215
+2007,Chubut,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",3964
+2007,Chubut,Others,Other candidates,9480
+2007,Entre Ríos,Elisa Carrió,Coalición Cívica,131080
+2007,Entre Ríos,Cristina Fernández de Kirchner,Frente para la Victoria,299504
+2007,Entre Ríos,Roberto Lavagna,Concertación UNA,115319
+2007,Entre Ríos,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",67933
+2007,Entre Ríos,Others,Other candidates,42597
+2007,Formosa,Elisa Carrió,Coalición Cívica,16767
+2007,Formosa,Cristina Fernández de Kirchner,Frente para la Victoria,151823
+2007,Formosa,Roberto Lavagna,Concertación UNA,31033
+2007,Formosa,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",5237
+2007,Formosa,Others,Other candidates,4834
+2007,Jujuy,Elisa Carrió,Coalición Cívica,16964
+2007,Jujuy,Cristina Fernández de Kirchner,Frente para la Victoria,162100
+2007,Jujuy,Roberto Lavagna,Concertación UNA,69381
+2007,Jujuy,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",5477
+2007,Jujuy,Others,Other candidates,9804
+2007,La Pampa,Elisa Carrió,Coalición Cívica,32181
+2007,La Pampa,Cristina Fernández de Kirchner,Frente para la Victoria,75896
+2007,La Pampa,Roberto Lavagna,Concertación UNA,21780
+2007,La Pampa,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",19740
+2007,La Pampa,Others,Other candidates,8053
+2007,La Rioja,Elisa Carrió,Coalición Cívica,8643
+2007,La Rioja,Cristina Fernández de Kirchner,Frente para la Victoria,69184
+2007,La Rioja,Roberto Lavagna,Concertación UNA,22281
+2007,La Rioja,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",35496
+2007,La Rioja,Others,Other candidates,4405
+2007,Mendoza,Elisa Carrió,Coalición Cívica,112513
+2007,Mendoza,Cristina Fernández de Kirchner,Frente para la Victoria,504820
+2007,Mendoza,Roberto Lavagna,Concertación UNA,156227
+2007,Mendoza,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",40272
+2007,Mendoza,Others,Other candidates,41878
+2007,Misiones,Elisa Carrió,Coalición Cívica,34978
+2007,Misiones,Cristina Fernández de Kirchner,Frente para la Victoria,293145
+2007,Misiones,Roberto Lavagna,Concertación UNA,65772
+2007,Misiones,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",23497
+2007,Misiones,Others,Other candidates,11074
+2007,Neuquén,Elisa Carrió,Coalición Cívica,55978
+2007,Neuquén,Cristina Fernández de Kirchner,Frente para la Victoria,94928
+2007,Neuquén,Roberto Lavagna,Concertación UNA,25629
+2007,Neuquén,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",9329
+2007,Neuquén,Others,Other candidates,64869
+2007,Río Negro,Elisa Carrió,Coalición Cívica,50720
+2007,Río Negro,Cristina Fernández de Kirchner,Frente para la Victoria,162977
+2007,Río Negro,Roberto Lavagna,Concertación UNA,34185
+2007,Río Negro,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",9648
+2007,Río Negro,Others,Other candidates,26937
+2007,Salta,Elisa Carrió,Coalición Cívica,33618
+2007,Salta,Cristina Fernández de Kirchner,Frente para la Victoria,371863
+2007,Salta,Roberto Lavagna,Concertación UNA,61844
+2007,Salta,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",8689
+2007,Salta,Others,Other candidates,21642
+2007,San Juan,Elisa Carrió,Coalición Cívica,26542
+2007,San Juan,Cristina Fernández de Kirchner,Frente para la Victoria,180055
+2007,San Juan,Roberto Lavagna,Concertación UNA,73224
+2007,San Juan,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",21502
+2007,San Juan,Others,Other candidates,8705
+2007,San Luis,Elisa Carrió,Coalición Cívica,24812
+2007,San Luis,Cristina Fernández de Kirchner,Frente para la Victoria,25652
+2007,San Luis,Roberto Lavagna,Concertación UNA,12811
+2007,San Luis,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",144893
+2007,San Luis,Others,Other candidates,6430
+2007,Santa Cruz,Elisa Carrió,Coalición Cívica,24608
+2007,Santa Cruz,Cristina Fernández de Kirchner,Frente para la Victoria,84544
+2007,Santa Cruz,Roberto Lavagna,Concertación UNA,13677
+2007,Santa Cruz,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",2473
+2007,Santa Cruz,Others,Other candidates,4585
+2007,Santa Fe,Elisa Carrió,Coalición Cívica,592779
+2007,Santa Fe,Cristina Fernández de Kirchner,Frente para la Victoria,619200
+2007,Santa Fe,Roberto Lavagna,Concertación UNA,289149
+2007,Santa Fe,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",134127
+2007,Santa Fe,Others,Other candidates,108821
+2007,Santiago del Estero,Elisa Carrió,Coalición Cívica,33028
+2007,Santiago del Estero,Cristina Fernández de Kirchner,Frente para la Victoria,265533
+2007,Santiago del Estero,Roberto Lavagna,Concertación UNA,21199
+2007,Santiago del Estero,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",9404
+2007,Santiago del Estero,Others,Other candidates,17464
+2007,Tucumán,Elisa Carrió,Coalición Cívica,83139
+2007,Tucumán,Cristina Fernández de Kirchner,Frente para la Victoria,440151
+2007,Tucumán,Roberto Lavagna,Concertación UNA,109644
+2007,Tucumán,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",22463
+2007,Tucumán,Others,Other candidates,44811
+2007,Tierra del Fuego,Elisa Carrió,Coalición Cívica,15517
+2007,Tierra del Fuego,Cristina Fernández de Kirchner,Frente para la Victoria,31729
+2007,Tierra del Fuego,Roberto Lavagna,Concertación UNA,6889
+2007,Tierra del Fuego,Alberto Rodríguez Saá,"Frente Justicia, Unión y Libertad",2095
+2007,Tierra del Fuego,Others,Other candidates,2403
+2011,Buenos Aires City (CABA),Hermes Binner,Frente Amplio Progresista,522198
+2011,Buenos Aires City (CABA),Cristina Fernández de Kirchner,Frente para la Victoria,661700
+2011,Buenos Aires City (CABA),Ricardo Alfonsín,Unión para el Desarrollo Social,178021
+2011,Buenos Aires City (CABA),Alberto Rodríguez Saá,Compromiso Federal,185244
+2011,Buenos Aires City (CABA),Eduardo Duhalde,Frente Popular,192047
+2011,Buenos Aires City (CABA),Others,Other candidates,141375
+2011,Buenos Aires Province,Hermes Binner,Frente Amplio Progresista,1282839
+2011,Buenos Aires Province,Cristina Fernández de Kirchner,Frente para la Victoria,4852580
+2011,Buenos Aires Province,Ricardo Alfonsín,Unión para el Desarrollo Social,833286
+2011,Buenos Aires Province,Alberto Rodríguez Saá,Compromiso Federal,631114
+2011,Buenos Aires Province,Eduardo Duhalde,Frente Popular,614263
+2011,Buenos Aires Province,Others,Other candidates,385082
+2011,Catamarca,Hermes Binner,Frente Amplio Progresista,9697
+2011,Catamarca,Cristina Fernández de Kirchner,Frente para la Victoria,132697
+2011,Catamarca,Ricardo Alfonsín,Unión para el Desarrollo Social,34212
+2011,Catamarca,Alberto Rodríguez Saá,Compromiso Federal,3375
+2011,Catamarca,Eduardo Duhalde,Frente Popular,5053
+2011,Catamarca,Others,Other candidates,5224
+2011,Córdoba,Hermes Binner,Frente Amplio Progresista,432945
+2011,Córdoba,Cristina Fernández de Kirchner,Frente para la Victoria,693232
+2011,Córdoba,Ricardo Alfonsín,Unión para el Desarrollo Social,332250
+2011,Córdoba,Alberto Rodríguez Saá,Compromiso Federal,226795
+2011,Córdoba,Eduardo Duhalde,Frente Popular,84106
+2011,Córdoba,Others,Other candidates,80664
+2011,Corrientes,Hermes Binner,Frente Amplio Progresista,36473
+2011,Corrientes,Cristina Fernández de Kirchner,Frente para la Victoria,344372
+2011,Corrientes,Ricardo Alfonsín,Unión para el Desarrollo Social,65316
+2011,Corrientes,Alberto Rodríguez Saá,Compromiso Federal,20428
+2011,Corrientes,Eduardo Duhalde,Frente Popular,23309
+2011,Corrientes,Others,Other candidates,16295
+2011,Chaco,Hermes Binner,Frente Amplio Progresista,40646
+2011,Chaco,Cristina Fernández de Kirchner,Frente para la Victoria,370764
+2011,Chaco,Ricardo Alfonsín,Unión para el Desarrollo Social,100273
+2011,Chaco,Alberto Rodríguez Saá,Compromiso Federal,17111
+2011,Chaco,Eduardo Duhalde,Frente Popular,23563
+2011,Chaco,Others,Other candidates,15713
+2011,Chubut,Hermes Binner,Frente Amplio Progresista,21361
+2011,Chubut,Cristina Fernández de Kirchner,Frente para la Victoria,165530
+2011,Chubut,Ricardo Alfonsín,Unión para el Desarrollo Social,26653
+2011,Chubut,Alberto Rodríguez Saá,Compromiso Federal,8544
+2011,Chubut,Eduardo Duhalde,Frente Popular,45147
+2011,Chubut,Others,Other candidates,9342
+2011,Entre Ríos,Hermes Binner,Frente Amplio Progresista,136492
+2011,Entre Ríos,Cristina Fernández de Kirchner,Frente para la Victoria,365872
+2011,Entre Ríos,Ricardo Alfonsín,Unión para el Desarrollo Social,97038
+2011,Entre Ríos,Alberto Rodríguez Saá,Compromiso Federal,27438
+2011,Entre Ríos,Eduardo Duhalde,Frente Popular,29000
+2011,Entre Ríos,Others,Other candidates,13646
+2011,Formosa,Hermes Binner,Frente Amplio Progresista,6427
+2011,Formosa,Cristina Fernández de Kirchner,Frente para la Victoria,185110
+2011,Formosa,Ricardo Alfonsín,Unión para el Desarrollo Social,35404
+2011,Formosa,Alberto Rodríguez Saá,Compromiso Federal,2099
+2011,Formosa,Eduardo Duhalde,Frente Popular,4511
+2011,Formosa,Others,Other candidates,3212
+2011,Jujuy,Hermes Binner,Frente Amplio Progresista,26137
+2011,Jujuy,Cristina Fernández de Kirchner,Frente para la Victoria,203901
+2011,Jujuy,Ricardo Alfonsín,Unión para el Desarrollo Social,60001
+2011,Jujuy,Alberto Rodríguez Saá,Compromiso Federal,11509
+2011,Jujuy,Eduardo Duhalde,Frente Popular,6130
+2011,Jujuy,Others,Other candidates,9943
+2011,La Pampa,Hermes Binner,Frente Amplio Progresista,24598
+2011,La Pampa,Cristina Fernández de Kirchner,Frente para la Victoria,104763
+2011,La Pampa,Ricardo Alfonsín,Unión para el Desarrollo Social,24006
+2011,La Pampa,Alberto Rodríguez Saá,Compromiso Federal,15348
+2011,La Pampa,Eduardo Duhalde,Frente Popular,7345
+2011,La Pampa,Others,Other candidates,4311
+2011,La Rioja,Hermes Binner,Frente Amplio Progresista,9297
+2011,La Rioja,Cristina Fernández de Kirchner,Frente para la Victoria,78526
+2011,La Rioja,Ricardo Alfonsín,Unión para el Desarrollo Social,26600
+2011,La Rioja,Alberto Rodríguez Saá,Compromiso Federal,31728
+2011,La Rioja,Eduardo Duhalde,Frente Popular,3083
+2011,La Rioja,Others,Other candidates,3751
+2011,Mendoza,Hermes Binner,Frente Amplio Progresista,107497
+2011,Mendoza,Cristina Fernández de Kirchner,Frente para la Victoria,445482
+2011,Mendoza,Ricardo Alfonsín,Unión para el Desarrollo Social,96523
+2011,Mendoza,Alberto Rodríguez Saá,Compromiso Federal,177154
+2011,Mendoza,Eduardo Duhalde,Frente Popular,15239
+2011,Mendoza,Others,Other candidates,32486
+2011,Misiones,Hermes Binner,Frente Amplio Progresista,31177
+2011,Misiones,Cristina Fernández de Kirchner,Frente para la Victoria,367919
+2011,Misiones,Ricardo Alfonsín,Unión para el Desarrollo Social,74821
+2011,Misiones,Alberto Rodríguez Saá,Compromiso Federal,16887
+2011,Misiones,Eduardo Duhalde,Frente Popular,44108
+2011,Misiones,Others,Other candidates,12684
+2011,Neuquén,Hermes Binner,Frente Amplio Progresista,45305
+2011,Neuquén,Cristina Fernández de Kirchner,Frente para la Victoria,192914
+2011,Neuquén,Ricardo Alfonsín,Unión para el Desarrollo Social,29363
+2011,Neuquén,Alberto Rodríguez Saá,Compromiso Federal,20177
+2011,Neuquén,Eduardo Duhalde,Frente Popular,11328
+2011,Neuquén,Others,Other candidates,16268
+2011,Río Negro,Hermes Binner,Frente Amplio Progresista,39913
+2011,Río Negro,Cristina Fernández de Kirchner,Frente para la Victoria,226805
+2011,Río Negro,Ricardo Alfonsín,Unión para el Desarrollo Social,31034
+2011,Río Negro,Alberto Rodríguez Saá,Compromiso Federal,13366
+2011,Río Negro,Eduardo Duhalde,Frente Popular,9757
+2011,Río Negro,Others,Other candidates,12007
+2011,Salta,Hermes Binner,Frente Amplio Progresista,50802
+2011,Salta,Cristina Fernández de Kirchner,Frente para la Victoria,390078
+2011,Salta,Ricardo Alfonsín,Unión para el Desarrollo Social,89862
+2011,Salta,Alberto Rodríguez Saá,Compromiso Federal,19837
+2011,Salta,Eduardo Duhalde,Frente Popular,25566
+2011,Salta,Others,Other candidates,30910
+2011,San Juan,Hermes Binner,Frente Amplio Progresista,21210
+2011,San Juan,Cristina Fernández de Kirchner,Frente para la Victoria,223715
+2011,San Juan,Ricardo Alfonsín,Unión para el Desarrollo Social,24461
+2011,San Juan,Alberto Rodríguez Saá,Compromiso Federal,58024
+2011,San Juan,Eduardo Duhalde,Frente Popular,7488
+2011,San Juan,Others,Other candidates,6644
+2011,San Luis,Hermes Binner,Frente Amplio Progresista,11902
+2011,San Luis,Cristina Fernández de Kirchner,Frente para la Victoria,74054
+2011,San Luis,Ricardo Alfonsín,Unión para el Desarrollo Social,21362
+2011,San Luis,Alberto Rodríguez Saá,Compromiso Federal,120622
+2011,San Luis,Eduardo Duhalde,Frente Popular,2245
+2011,San Luis,Others,Other candidates,4916
+2011,Santa Cruz,Hermes Binner,Frente Amplio Progresista,10572
+2011,Santa Cruz,Cristina Fernández de Kirchner,Frente para la Victoria,107786
+2011,Santa Cruz,Ricardo Alfonsín,Unión para el Desarrollo Social,17054
+2011,Santa Cruz,Alberto Rodríguez Saá,Compromiso Federal,1829
+2011,Santa Cruz,Eduardo Duhalde,Frente Popular,2148
+2011,Santa Cruz,Others,Other candidates,4521
+2011,Santa Fe,Hermes Binner,Frente Amplio Progresista,705085
+2011,Santa Fe,Cristina Fernández de Kirchner,Frente para la Victoria,759816
+2011,Santa Fe,Ricardo Alfonsín,Unión para el Desarrollo Social,102757
+2011,Santa Fe,Alberto Rodríguez Saá,Compromiso Federal,86336
+2011,Santa Fe,Eduardo Duhalde,Frente Popular,90745
+2011,Santa Fe,Others,Other candidates,60909
+2011,Santiago del Estero,Hermes Binner,Frente Amplio Progresista,16949
+2011,Santiago del Estero,Cristina Fernández de Kirchner,Frente para la Victoria,338565
+2011,Santiago del Estero,Ricardo Alfonsín,Unión para el Desarrollo Social,28889
+2011,Santiago del Estero,Alberto Rodríguez Saá,Compromiso Federal,6856
+2011,Santiago del Estero,Eduardo Duhalde,Frente Popular,13631
+2011,Santiago del Estero,Others,Other candidates,7429
+2011,Tucumán,Hermes Binner,Frente Amplio Progresista,88156
+2011,Tucumán,Cristina Fernández de Kirchner,Frente para la Victoria,530312
+2011,Tucumán,Ricardo Alfonsín,Unión para el Desarrollo Social,107673
+2011,Tucumán,Alberto Rodríguez Saá,Compromiso Federal,39508
+2011,Tucumán,Eduardo Duhalde,Frente Popular,23514
+2011,Tucumán,Others,Other candidates,23275
+2011,Tierra del Fuego,Hermes Binner,Frente Amplio Progresista,7291
+2011,Tierra del Fuego,Cristina Fernández de Kirchner,Frente para la Victoria,48561
+2011,Tierra del Fuego,Ricardo Alfonsín,Unión para el Desarrollo Social,6158
+2011,Tierra del Fuego,Alberto Rodríguez Saá,Compromiso Federal,4025
+2011,Tierra del Fuego,Eduardo Duhalde,Frente Popular,2504
+2011,Tierra del Fuego,Others,Other candidates,2450
+2015,Buenos Aires City (CABA),Mauricio Macri,Cambiemos,1006431
+2015,Buenos Aires City (CABA),Daniel Scioli,Frente para la Victoria,482561
+2015,Buenos Aires City (CABA),Sergio Massa,Unidos por una Nueva Alternativa,304620
+2015,Buenos Aires City (CABA),Nicolás del Caño,Frente de Izquierda y de los Trabajadores,84181
+2015,Buenos Aires City (CABA),Margarita Stolbizer,Progresistas,100636
+2015,Buenos Aires City (CABA),Others,Other candidates,14039
+2015,Buenos Aires Province,Mauricio Macri,Cambiemos,3121793
+2015,Buenos Aires Province,Daniel Scioli,Frente para la Victoria,3558464
+2015,Buenos Aires Province,Sergio Massa,Unidos por una Nueva Alternativa,2146239
+2015,Buenos Aires Province,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,350686
+2015,Buenos Aires Province,Margarita Stolbizer,Progresistas,271987
+2015,Buenos Aires Province,Others,Other candidates,91977
+2015,Catamarca,Mauricio Macri,Cambiemos,69449
+2015,Catamarca,Daniel Scioli,Frente para la Victoria,88884
+2015,Catamarca,Sergio Massa,Unidos por una Nueva Alternativa,31380
+2015,Catamarca,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,3229
+2015,Catamarca,Margarita Stolbizer,Progresistas,2304
+2015,Catamarca,Others,Other candidates,1982
+2015,Córdoba,Mauricio Macri,Cambiemos,1167179
+2015,Córdoba,Daniel Scioli,Frente para la Victoria,424364
+2015,Córdoba,Sergio Massa,Unidos por una Nueva Alternativa,449308
+2015,Córdoba,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,69605
+2015,Córdoba,Margarita Stolbizer,Progresistas,39326
+2015,Córdoba,Others,Other candidates,46621
+2015,Corrientes,Mauricio Macri,Cambiemos,200338
+2015,Corrientes,Daniel Scioli,Frente para la Victoria,318872
+2015,Corrientes,Sergio Massa,Unidos por una Nueva Alternativa,96439
+2015,Corrientes,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,6903
+2015,Corrientes,Margarita Stolbizer,Progresistas,6705
+2015,Corrientes,Others,Other candidates,3414
+2015,Chaco,Mauricio Macri,Cambiemos,187630
+2015,Chaco,Daniel Scioli,Frente para la Victoria,358552
+2015,Chaco,Sergio Massa,Unidos por una Nueva Alternativa,98193
+2015,Chaco,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,9490
+2015,Chaco,Margarita Stolbizer,Progresistas,7052
+2015,Chaco,Others,Other candidates,4653
+2015,Chubut,Mauricio Macri,Cambiemos,61700
+2015,Chubut,Daniel Scioli,Frente para la Victoria,120461
+2015,Chubut,Sergio Massa,Unidos por una Nueva Alternativa,84862
+2015,Chubut,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,10377
+2015,Chubut,Margarita Stolbizer,Progresistas,8620
+2015,Chubut,Others,Other candidates,2715
+2015,Entre Ríos,Mauricio Macri,Cambiemos,296721
+2015,Entre Ríos,Daniel Scioli,Frente para la Victoria,297009
+2015,Entre Ríos,Sergio Massa,Unidos por una Nueva Alternativa,155303
+2015,Entre Ríos,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,13759
+2015,Entre Ríos,Margarita Stolbizer,Progresistas,16433
+2015,Entre Ríos,Others,Other candidates,7558
+2015,Formosa,Mauricio Macri,Cambiemos,43970
+2015,Formosa,Daniel Scioli,Frente para la Victoria,180822
+2015,Formosa,Sergio Massa,Unidos por una Nueva Alternativa,48387
+2015,Formosa,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,2520
+2015,Formosa,Margarita Stolbizer,Progresistas,1032
+2015,Formosa,Others,Other candidates,628
+2015,Jujuy,Mauricio Macri,Cambiemos,68715
+2015,Jujuy,Daniel Scioli,Frente para la Victoria,147690
+2015,Jujuy,Sergio Massa,Unidos por una Nueva Alternativa,163165
+2015,Jujuy,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,9532
+2015,Jujuy,Margarita Stolbizer,Progresistas,3044
+2015,Jujuy,Others,Other candidates,1918
+2015,La Pampa,Mauricio Macri,Cambiemos,71484
+2015,La Pampa,Daniel Scioli,Frente para la Victoria,81281
+2015,La Pampa,Sergio Massa,Unidos por una Nueva Alternativa,45973
+2015,La Pampa,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,5215
+2015,La Pampa,Margarita Stolbizer,Progresistas,5524
+2015,La Pampa,Others,Other candidates,3720
+2015,La Rioja,Mauricio Macri,Cambiemos,64872
+2015,La Rioja,Daniel Scioli,Frente para la Victoria,74643
+2015,La Rioja,Sergio Massa,Unidos por una Nueva Alternativa,53237
+2015,La Rioja,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,3407
+2015,La Rioja,Margarita Stolbizer,Progresistas,2251
+2015,La Rioja,Others,Other candidates,6646
+2015,Mendoza,Mauricio Macri,Cambiemos,449702
+2015,Mendoza,Daniel Scioli,Frente para la Victoria,347873
+2015,Mendoza,Sergio Massa,Unidos por una Nueva Alternativa,158658
+2015,Mendoza,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,82905
+2015,Mendoza,Margarita Stolbizer,Progresistas,15815
+2015,Mendoza,Others,Other candidates,47936
+2015,Misiones,Mauricio Macri,Cambiemos,150532
+2015,Misiones,Daniel Scioli,Frente para la Victoria,409220
+2015,Misiones,Sergio Massa,Unidos por una Nueva Alternativa,91148
+2015,Misiones,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,5997
+2015,Misiones,Margarita Stolbizer,Progresistas,8337
+2015,Misiones,Others,Other candidates,2413
+2015,Neuquén,Mauricio Macri,Cambiemos,105200
+2015,Neuquén,Daniel Scioli,Frente para la Victoria,134341
+2015,Neuquén,Sergio Massa,Unidos por una Nueva Alternativa,98808
+2015,Neuquén,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,20113
+2015,Neuquén,Margarita Stolbizer,Progresistas,9970
+2015,Neuquén,Others,Other candidates,6723
+2015,Río Negro,Mauricio Macri,Cambiemos,90223
+2015,Río Negro,Daniel Scioli,Frente para la Victoria,183208
+2015,Río Negro,Sergio Massa,Unidos por una Nueva Alternativa,97716
+2015,Río Negro,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,15438
+2015,Río Negro,Margarita Stolbizer,Progresistas,11214
+2015,Río Negro,Others,Other candidates,5618
+2015,Salta,Mauricio Macri,Cambiemos,146985
+2015,Salta,Daniel Scioli,Frente para la Victoria,288873
+2015,Salta,Sergio Massa,Unidos por una Nueva Alternativa,241399
+2015,Salta,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,19315
+2015,Salta,Margarita Stolbizer,Progresistas,7480
+2015,Salta,Others,Other candidates,5402
+2015,San Juan,Mauricio Macri,Cambiemos,87510
+2015,San Juan,Daniel Scioli,Frente para la Victoria,195388
+2015,San Juan,Sergio Massa,Unidos por una Nueva Alternativa,110519
+2015,San Juan,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,6126
+2015,San Juan,Margarita Stolbizer,Progresistas,7378
+2015,San Juan,Others,Other candidates,14346
+2015,San Luis,Mauricio Macri,Cambiemos,86507
+2015,San Luis,Daniel Scioli,Frente para la Victoria,43881
+2015,San Luis,Sergio Massa,Unidos por una Nueva Alternativa,37905
+2015,San Luis,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,5057
+2015,San Luis,Margarita Stolbizer,Progresistas,3687
+2015,San Luis,Others,Other candidates,100743
+2015,Santa Cruz,Mauricio Macri,Cambiemos,45300
+2015,Santa Cruz,Daniel Scioli,Frente para la Victoria,83729
+2015,Santa Cruz,Sergio Massa,Unidos por una Nueva Alternativa,39482
+2015,Santa Cruz,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,5542
+2015,Santa Cruz,Margarita Stolbizer,Progresistas,2071
+2015,Santa Cruz,Others,Other candidates,819
+2015,Santa Fe,Mauricio Macri,Cambiemos,721044
+2015,Santa Fe,Daniel Scioli,Frente para la Victoria,653587
+2015,Santa Fe,Sergio Massa,Unidos por una Nueva Alternativa,507903
+2015,Santa Fe,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,54050
+2015,Santa Fe,Margarita Stolbizer,Progresistas,80247
+2015,Santa Fe,Others,Other candidates,29937
+2015,Santiago del Estero,Mauricio Macri,Cambiemos,82872
+2015,Santiago del Estero,Daniel Scioli,Frente para la Victoria,357564
+2015,Santiago del Estero,Sergio Massa,Unidos por una Nueva Alternativa,109129
+2015,Santiago del Estero,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,8106
+2015,Santiago del Estero,Margarita Stolbizer,Progresistas,5302
+2015,Santiago del Estero,Others,Other candidates,2646
+2015,Tucumán,Mauricio Macri,Cambiemos,254734
+2015,Tucumán,Daniel Scioli,Frente para la Victoria,464770
+2015,Tucumán,Sergio Massa,Unidos por una Nueva Alternativa,195479
+2015,Tucumán,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,16953
+2015,Tucumán,Margarita Stolbizer,Progresistas,13104
+2015,Tucumán,Others,Other candidates,8653
+2015,Tierra del Fuego,Mauricio Macri,Cambiemos,20240
+2015,Tierra del Fuego,Daniel Scioli,Frente para la Victoria,42453
+2015,Tierra del Fuego,Sergio Massa,Unidos por una Nueva Alternativa,21726
+2015,Tierra del Fuego,Nicolás del Caño,Frente de Izquierda y de los Trabajadores,4025
+2015,Tierra del Fuego,Margarita Stolbizer,Progresistas,3034
+2015,Tierra del Fuego,Others,Other candidates,1473
+2023,Buenos Aires Province,Javier Milei,La Libertad Avanza,2593075
+2023,Buenos Aires Province,Sergio Massa,Unión por la Patria,4327441
+2023,Buenos Aires Province,Patricia Bullrich,Juntos por el Cambio,2423384
+2023,Buenos Aires Province,Juan Schiaretti,Hacemos por Nuestro País,373087
+2023,Buenos Aires Province,Myriam Bregman,Frente de Izquierda y de los Trabajadores,359538
+2023,Buenos Aires City (CABA),Javier Milei,La Libertad Avanza,382488
+2023,Buenos Aires City (CABA),Sergio Massa,Unión por la Patria,616182
+2023,Buenos Aires City (CABA),Patricia Bullrich,Juntos por el Cambio,789454
+2023,Buenos Aires City (CABA),Juan Schiaretti,Hacemos por Nuestro País,58788
+2023,Buenos Aires City (CABA),Myriam Bregman,Frente de Izquierda y de los Trabajadores,67666
+2023,Catamarca,Javier Milei,La Libertad Avanza,78017
+2023,Catamarca,Sergio Massa,Unión por la Patria,104322
+2023,Catamarca,Patricia Bullrich,Juntos por el Cambio,41719
+2023,Catamarca,Juan Schiaretti,Hacemos por Nuestro País,15677
+2023,Catamarca,Myriam Bregman,Frente de Izquierda y de los Trabajadores,3841
+2023,Chaco,Javier Milei,La Libertad Avanza,200006
+2023,Chaco,Sergio Massa,Unión por la Patria,313941
+2023,Chaco,Patricia Bullrich,Juntos por el Cambio,173253
+2023,Chaco,Juan Schiaretti,Hacemos por Nuestro País,26059
+2023,Chaco,Myriam Bregman,Frente de Izquierda y de los Trabajadores,5637
+2023,Chubut,Javier Milei,La Libertad Avanza,121842
+2023,Chubut,Sergio Massa,Unión por la Patria,111752
+2023,Chubut,Patricia Bullrich,Juntos por el Cambio,71343
+2023,Chubut,Juan Schiaretti,Hacemos por Nuestro País,26722
+2023,Chubut,Myriam Bregman,Frente de Izquierda y de los Trabajadores,15187
+2023,Córdoba,Javier Milei,La Libertad Avanza,773428
+2023,Córdoba,Sergio Massa,Unión por la Patria,309044
+2023,Córdoba,Patricia Bullrich,Juntos por el Cambio,521310
+2023,Córdoba,Juan Schiaretti,Hacemos por Nuestro País,667447
+2023,Córdoba,Myriam Bregman,Frente de Izquierda y de los Trabajadores,31922
+2023,Corrientes,Javier Milei,La Libertad Avanza,189282
+2023,Corrientes,Sergio Massa,Unión por la Patria,262170
+2023,Corrientes,Patricia Bullrich,Juntos por el Cambio,226371
+2023,Corrientes,Juan Schiaretti,Hacemos por Nuestro País,19215
+2023,Corrientes,Myriam Bregman,Frente de Izquierda y de los Trabajadores,7464
+2023,Entre Ríos,Javier Milei,La Libertad Avanza,252719
+2023,Entre Ríos,Sergio Massa,Unión por la Patria,283136
+2023,Entre Ríos,Patricia Bullrich,Juntos por el Cambio,255236
+2023,Entre Ríos,Juan Schiaretti,Hacemos por Nuestro País,45540
+2023,Entre Ríos,Myriam Bregman,Frente de Izquierda y de los Trabajadores,13248
+2023,Formosa,Javier Milei,La Libertad Avanza,105330
+2023,Formosa,Sergio Massa,Unión por la Patria,189593
+2023,Formosa,Patricia Bullrich,Juntos por el Cambio,55738
+2023,Formosa,Juan Schiaretti,Hacemos por Nuestro País,8843
+2023,Formosa,Myriam Bregman,Frente de Izquierda y de los Trabajadores,2954
+2023,Jujuy,Javier Milei,La Libertad Avanza,170966
+2023,Jujuy,Sergio Massa,Unión por la Patria,148103
+2023,Jujuy,Patricia Bullrich,Juntos por el Cambio,91373
+2023,Jujuy,Juan Schiaretti,Hacemos por Nuestro País,31063
+2023,Jujuy,Myriam Bregman,Frente de Izquierda y de los Trabajadores,16193
+2023,La Pampa,Javier Milei,La Libertad Avanza,77493
+2023,La Pampa,Sergio Massa,Unión por la Patria,80611
+2023,La Pampa,Patricia Bullrich,Juntos por el Cambio,50640
+2023,La Pampa,Juan Schiaretti,Hacemos por Nuestro País,17195
+2023,La Pampa,Myriam Bregman,Frente de Izquierda y de los Trabajadores,5292
+2023,La Rioja,Javier Milei,La Libertad Avanza,90328
+2023,La Rioja,Sergio Massa,Unión por la Patria,98739
+2023,La Rioja,Patricia Bullrich,Juntos por el Cambio,28314
+2023,La Rioja,Juan Schiaretti,Hacemos por Nuestro País,20416
+2023,La Rioja,Myriam Bregman,Frente de Izquierda y de los Trabajadores,2219
+2023,Mendoza,Javier Milei,La Libertad Avanza,475272
+2023,Mendoza,Sergio Massa,Unión por la Patria,269326
+2023,Mendoza,Patricia Bullrich,Juntos por el Cambio,289533
+2023,Mendoza,Juan Schiaretti,Hacemos por Nuestro País,48472
+2023,Mendoza,Myriam Bregman,Frente de Izquierda y de los Trabajadores,38932
+2023,Misiones,Javier Milei,La Libertad Avanza,309077
+2023,Misiones,Sergio Massa,Unión por la Patria,277836
+2023,Misiones,Patricia Bullrich,Juntos por el Cambio,105384
+2023,Misiones,Juan Schiaretti,Hacemos por Nuestro País,30036
+2023,Misiones,Myriam Bregman,Frente de Izquierda y de los Trabajadores,10228
+2023,Neuquén,Javier Milei,La Libertad Avanza,157187
+2023,Neuquén,Sergio Massa,Unión por la Patria,135881
+2023,Neuquén,Patricia Bullrich,Juntos por el Cambio,87952
+2023,Neuquén,Juan Schiaretti,Hacemos por Nuestro País,25438
+2023,Neuquén,Myriam Bregman,Frente de Izquierda y de los Trabajadores,21356
+2023,Río Negro,Javier Milei,La Libertad Avanza,150079
+2023,Río Negro,Sergio Massa,Unión por la Patria,168235
+2023,Río Negro,Patricia Bullrich,Juntos por el Cambio,80591
+2023,Río Negro,Juan Schiaretti,Hacemos por Nuestro País,27782
+2023,Río Negro,Myriam Bregman,Frente de Izquierda y de los Trabajadores,17847
+2023,Salta,Javier Milei,La Libertad Avanza,323105
+2023,Salta,Sergio Massa,Unión por la Patria,304880
+2023,Salta,Patricia Bullrich,Juntos por el Cambio,110702
+2023,Salta,Juan Schiaretti,Hacemos por Nuestro País,49587
+2023,Salta,Myriam Bregman,Frente de Izquierda y de los Trabajadores,14014
+2023,San Juan,Javier Milei,La Libertad Avanza,164117
+2023,San Juan,Sergio Massa,Unión por la Patria,155794
+2023,San Juan,Patricia Bullrich,Juntos por el Cambio,108547
+2023,San Juan,Juan Schiaretti,Hacemos por Nuestro País,28879
+2023,San Juan,Myriam Bregman,Frente de Izquierda y de los Trabajadores,10455
+2023,San Luis,Javier Milei,La Libertad Avanza,139894
+2023,San Luis,Sergio Massa,Unión por la Patria,88235
+2023,San Luis,Patricia Bullrich,Juntos por el Cambio,67517
+2023,San Luis,Juan Schiaretti,Hacemos por Nuestro País,20159
+2023,San Luis,Myriam Bregman,Frente de Izquierda y de los Trabajadores,7055
+2023,Santa Cruz,Javier Milei,La Libertad Avanza,64687
+2023,Santa Cruz,Sergio Massa,Unión por la Patria,67336
+2023,Santa Cruz,Patricia Bullrich,Juntos por el Cambio,29234
+2023,Santa Cruz,Juan Schiaretti,Hacemos por Nuestro País,11757
+2023,Santa Cruz,Myriam Bregman,Frente de Izquierda y de los Trabajadores,5161
+2023,Santa Fe,Javier Milei,La Libertad Avanza,664607
+2023,Santa Fe,Sergio Massa,Unión por la Patria,607088
+2023,Santa Fe,Patricia Bullrich,Juntos por el Cambio,549363
+2023,Santa Fe,Juan Schiaretti,Hacemos por Nuestro País,184337
+2023,Santa Fe,Myriam Bregman,Frente de Izquierda y de los Trabajadores,38550
+2023,Santiago del Estero,Javier Milei,La Libertad Avanza,144659
+2023,Santiago del Estero,Sergio Massa,Unión por la Patria,416597
+2023,Santiago del Estero,Patricia Bullrich,Juntos por el Cambio,50749
+2023,Santiago del Estero,Juan Schiaretti,Hacemos por Nuestro País,13489
+2023,Santiago del Estero,Myriam Bregman,Frente de Izquierda y de los Trabajadores,7912
+2023,Tierra del Fuego,Javier Milei,La Libertad Avanza,36202
+2023,Tierra del Fuego,Sergio Massa,Unión por la Patria,40889
+2023,Tierra del Fuego,Patricia Bullrich,Juntos por el Cambio,16043
+2023,Tierra del Fuego,Juan Schiaretti,Hacemos por Nuestro País,9767
+2023,Tierra del Fuego,Myriam Bregman,Frente de Izquierda y de los Trabajadores,4137
+2023,Tucumán,Javier Milei,La Libertad Avanza,371130
+2023,Tucumán,Sergio Massa,Unión por la Patria,476361
+2023,Tucumán,Patricia Bullrich,Juntos por el Cambio,155273
+2023,Tucumán,Juan Schiaretti,Hacemos por Nuestro País,42313
+2023,Tucumán,Myriam Bregman,Frente de Izquierda y de los Trabajadores,15253

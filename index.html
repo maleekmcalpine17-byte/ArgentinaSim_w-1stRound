@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Argentina Runoff Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Argentina Runoff Game</h1>
+      <p class="sub">Simulate a presidential first round or second round (ballotage) based on your candidates' stances!</p>
+      <button id="restart" class="btn ghost" type="button">Restart Game</button>
+    </header>
+
+    <section class="panel" id="preset-panel">
+      <h3>Election</h3>
+      <div class="field">
+        <label for="preset-select">Preset</label>
+        <select id="preset-select"></select>
+      </div>
+      <div class="field">
+        <label for="round-select">Round</label>
+        <select id="round-select">
+          <option value="runoff">Runoff / head-to-head (two candidates)</option>
+          <option value="first">First round (any number of candidates)</option>
+        </select>
+      </div>
+      <p class="note" id="preset-note"></p>
+    </section>
+
+    <section class="cards" id="cards-runoff">
+      <article class="card np" id="cand1-card"></article>
+      <article class="card pj" id="cand2-card"></article>
+    </section>
+
+    <section id="r1-section" hidden>
+      <div class="cards" id="r1-cards"></div>
+      <div class="add-row">
+        <button id="add-cand" class="btn" type="button">+ Add candidate</button>
+        <span id="r1-count" class="note"></span>
+      </div>
+    </section>
+
+    <section class="panel" id="env-panel">
+      <h3>National Environment</h3>
+      <p class="note" id="env-note"></p>
+      <div class="field">
+        <label for="env"><span>National environment</span><span class="val wide" id="env-val">EVEN</span></label>
+        <input type="range" id="env" min="-120" max="120" step="1" value="0" />
+      </div>
+    </section>
+
+    <details id="state-settings" class="panel">
+      <summary>Province Settings (PVI &amp; stances)</summary>
+      <p class="note">PVI is a province's partisan lean vs. the nation (Córdoba is strongly non-Peronist, Santiago del Estero strongly Peronist). Pick a province, then change its PVI or any stance. Edits are kept for every province until you reset them.</p>
+      <div class="state-controls">
+        <select id="state-select" aria-label="Province"></select>
+        <button id="state-reset" class="btn ghost" type="button">Reset this province</button>
+        <button id="state-reset-all" class="btn ghost" type="button">Reset all provinces</button>
+      </div>
+      <div id="state-sliders"></div>
+      <p id="edited-note" class="note"></p>
+    </details>
+
+    <div class="run">
+      <button id="run" class="btn primary" type="button">Run Simulation</button>
+    </div>
+
+    <section id="results" hidden>
+      <h2>Runoff Results by Province</h2>
+      <p id="approval-note" class="note"></p>
+      <ul id="state-list" class="state-list"></ul>
+
+      <h2>The 3 Closest Provinces</h2>
+      <ul id="closest-list" class="closest-list"></ul>
+
+      <h2>Closest Provinces Margin Visualization</h2>
+      <div class="chart" id="chart"></div>
+
+      <h2>Final Results (National Popular Vote)</h2>
+      <div class="final">
+        <div id="final-1"></div>
+        <div id="final-2"></div>
+      </div>
+      <div id="national-bar" class="national-bar"></div>
+      <p id="real-note" class="note"></p>
+      <div id="verdict" class="verdict"></div>
+    </section>
+
+    <section id="results1" hidden>
+      <h2>First Round Results by Province</h2>
+      <p id="r1-approval-note" class="note"></p>
+      <ul id="r1-state-list" class="state-list"></ul>
+
+      <h2>The 3 Closest Provinces</h2>
+      <ul id="r1-closest-list" class="closest-list"></ul>
+
+      <h2>Closest Provinces Margin Visualization</h2>
+      <div class="chart" id="r1-chart"></div>
+
+      <h2>First Round: National Popular Vote</h2>
+      <div class="final" id="r1-final"></div>
+      <div id="r1-national-bar" class="national-bar"></div>
+      <p id="r1-real-note" class="note"></p>
+      <div id="r1-verdict" class="verdict"></div>
+
+      <div id="r1-runoff" hidden>
+        <h2>Runoff Projection</h2>
+        <p id="r1-runoff-note" class="note"></p>
+        <ul id="r1-runoff-list" class="state-list"></ul>
+        <h2>Runoff: National Popular Vote</h2>
+        <div class="final" id="r1-runoff-final"></div>
+        <div id="r1-runoff-bar" class="national-bar"></div>
+        <p id="r1-runoff-real" class="note"></p>
+        <div id="r1-runoff-verdict" class="verdict"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="elections.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
