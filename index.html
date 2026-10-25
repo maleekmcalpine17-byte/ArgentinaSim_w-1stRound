@@ -109,10 +109,21 @@
       <div id="r1-runoff" hidden>
         <h2>Runoff Projection</h2>
         <p id="r1-runoff-note" class="note"></p>
+        <details class="panel" id="r1-runoff-settings" open>
+          <summary>Runoff settings (endorsements, drop-out, turnout)</summary>
+          <div id="r1-runoff-rules"></div>
+          <div class="field"><label for="r2-pull"><span>How many voters follow an endorsement</span><span class="val wide" id="r2-pull-val">50%</span></label>
+            <input type="range" id="r2-pull" min="0" max="100" step="5" value="50" /></div>
+          <div class="field"><label for="r2-drop"><span>Drop-out of voters at the maximum distance from both finalists</span><span class="val wide" id="r2-drop-val">40%</span></label>
+            <input type="range" id="r2-drop" min="0" max="100" step="5" value="40" /></div>
+          <div class="field"><label for="r2-turnout"><span>Runoff turnout vs. the first round (positive votes)</span><span class="val wide" id="r2-turnout-val">0%</span></label>
+            <input type="range" id="r2-turnout" min="-10" max="10" step="1" value="0" /></div>
+        </details>
         <ul id="r1-runoff-list" class="state-list"></ul>
         <h2>Runoff: National Popular Vote</h2>
         <div class="final" id="r1-runoff-final"></div>
         <div id="r1-runoff-bar" class="national-bar"></div>
+        <p id="r1-runoff-turnout" class="note"></p>
         <p id="r1-runoff-real" class="note"></p>
         <div id="r1-runoff-verdict" class="verdict"></div>
       </div>

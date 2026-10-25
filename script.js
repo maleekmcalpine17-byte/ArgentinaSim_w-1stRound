@@ -404,30 +404,75 @@ const R2_TAU = 4;       // smaller = voters follow proximity more strictly
 const R2_PROVINCE = 0;  // weight of the province's own stances next to the eliminated candidate's profile (0 = ignore)
 const profileDistance = (a, b) => AXES.reduce((s, k) => s + R2_WEIGHTS[k] * Math.abs(a[k] - b[k]), 0);
 
-function projectRunoff(sim, cands, stateData = currentStates, tau = R2_TAU, provinceWeight = R2_PROVINCE) {
+// ----- Runoff v2: endorsements, drop-out and turnout -----
+// Besides the split above, each eliminated candidate can:
+//   - "model":   voters decide on their own (default)
+//   - "A"/"B":   endorse finalist A or B; a share `pull` of their voters follow, the rest decide on their own
+//   - "neutral": refuse to endorse; more of their voters stay home (R2_NEUTRAL_DROP extra)
+//   - "custom":  a fixed split, pct % to finalist A and the rest to B
+// Voters who are far from BOTH finalists may not vote for either: drop-out = R2_DROP x (distance to the nearest finalist,
+// as a share of the largest possible distance). Dropped voters leave the count, since the runoff counts positive votes.
+// `turnout` (percent) then scales every vote up or down, which changes the totals but not the shares.
+// Calibration: with the defaults (everyone "model", no turnout change) the national shares of the two real runoffs are
+// reproduced to within 0.7 points. Drop-out moves the positive-vote total by -2.8% (2015) and -2.1% (2023); the real totals
+// moved by +0.5% and -3.0%. 2023 is close, 2015 is not (its blank first-round votes became positive ones), and one rule cannot
+// fit both, so treat the total as rough and use the turnout slider to set your own.
+const R2_DROP = 0.4;          // drop-out of voters at the maximum distance from both finalists = 40%
+const R2_NEUTRAL_DROP = 0.1;  // extra drop-out when the eliminated candidate stays neutral
+const R2_PULL = 0.5;          // share of an endorsing candidate's voters who follow the endorsement
+const R2_DMAX = 9 * Object.values(R2_WEIGHTS).reduce((a, b) => a + b, 0);   // largest possible profile distance
+const R2_OTHERS_DISTANCE = 0.3;                                              // "Others" count as moderately far from both
+
+// cands: current candidates (each with a stable `id`); opts: { tau, provinceWeight, drop, pull, turnout, rules: {id: {mode, pct}} }
+function projectRunoff(sim, cands, stateData = currentStates, opts = {}) {
+  const o = Object.assign({ tau: R2_TAU, provinceWeight: R2_PROVINCE, drop: R2_DROP, pull: R2_PULL, turnout: 0, rules: {} }, opts);
   const outcome = r1Outcome(sim);
   const f = [outcome.first, outcome.second];
+  const clamp01 = (x) => Math.max(0, Math.min(0.8, x));
+  const scale = 1 + o.turnout / 100;
+  // per eliminated candidate: drop-out and rule (the same in every province)
+  const elim = [];
+  cands.forEach((c, i) => {
+    if (i === f[0] || i === f[1]) return;
+    const rule = o.rules[c.id] || { mode: "model" };
+    const near = Math.min(profileDistance(c, cands[f[0]]), profileDistance(c, cands[f[1]])) / R2_DMAX;
+    elim.push({ i, rule, drop: clamp01(o.drop * near + (rule.mode === "neutral" ? R2_NEUTRAL_DROP : 0)) });
+  });
+  const othersDrop = clamp01(o.drop * R2_OTHERS_DISTANCE);
   const results = [];
-  let votes = [0, 0], won = [0, 0];
+  let votes = [0, 0], won = [0, 0], dropped = 0;
   for (const r of sim.results) {
     const attrs = stateData[r.state];
     const v = [r.votes[f[0]], r.votes[f[1]]];
-    const move = (own, eliminated) => {   // own: profile of the eliminated candidate or null (Others follow the province only)
+    const move = (own, eliminated, drop, rule) => {   // own: profile of the eliminated candidate or null (Others follow the province)
       // Others follow the province only (even at weight 0, otherwise they would split exactly 50/50)
-      const w = f.map((fi) => Math.exp(-((own ? profileDistance(own, cands[fi]) + provinceWeight * profileDistance(attrs, cands[fi])
-                                              : Math.max(provinceWeight, 1) * profileDistance(attrs, cands[fi]))) / tau));
+      const w = f.map((fi) => Math.exp(-((own ? profileDistance(own, cands[fi]) + o.provinceWeight * profileDistance(attrs, cands[fi])
+                                              : Math.max(o.provinceWeight, 1) * profileDistance(attrs, cands[fi]))) / o.tau));
       const z = w[0] + w[1];
-      v[0] += eliminated * w[0] / z; v[1] += eliminated * w[1] / z;
+      let split = [w[0] / z, w[1] / z];
+      if (rule && (rule.mode === "A" || rule.mode === "B")) {
+        const k = rule.mode === "A" ? 0 : 1;
+        split = split.map((x, j) => (1 - o.pull) * x + (j === k ? o.pull : 0));
+      } else if (rule && rule.mode === "custom") {
+        const a = Math.max(0, Math.min(100, rule.pct === undefined ? 50 : rule.pct)) / 100;
+        split = [a, 1 - a];
+      }
+      const kept = eliminated * (1 - drop);
+      v[0] += kept * split[0]; v[1] += kept * split[1];
+      dropped += eliminated * drop;
     };
-    cands.forEach((c, i) => { if (i !== f[0] && i !== f[1]) move(c, r.votes[i]); });
-    if (r.otherVotes > 0) move(null, r.otherVotes);
+    elim.forEach((e) => move(cands[e.i], r.votes[e.i], e.drop, e.rule));
+    if (r.otherVotes > 0) move(null, r.otherVotes, othersDrop, null);
+    v[0] *= scale; v[1] *= scale;
     const total = v[0] + v[1], signed = roundM(100 * (v[0] - v[1]) / total);
     const winner = signed >= 0 ? 0 : 1;
     won[winner]++; votes[0] += v[0]; votes[1] += v[1];
     results.push({ state: r.state, n: total, v, signed, winner });
   }
   const total = votes[0] + votes[1];
-  return { finalists: f, results, votes, won, total, nationalMargin: roundM(100 * (votes[0] - votes[1]) / total) };
+  return { finalists: f, results, votes, won, total, nationalMargin: roundM(100 * (votes[0] - votes[1]) / total),
+           dropped: dropped * scale, firstRoundTotal: sim.total, turnoutChange: 100 * (total / sim.total - 1),
+           eliminated: elim.map((e) => ({ id: cands[e.i].id, index: e.i, drop: e.drop })) };
 }
 
 // ---------- UI ----------
@@ -623,6 +668,8 @@ function render(c1, c2, sim) {
 // ----- First round: candidate cards (add / remove) -----
 let currentRound = "runoff";            // "runoff" (two candidates) or "first" (first round, any number of candidates)
 let r1Specs = [], r1Setup = null, r1NewProfile = deepCopy(MID_PROFILE), r1NextId = 0;
+let lastR1 = null;                       // { cands, sim } of the last first-round run, so the runoff can be recalculated
+let r2Rules = {}, r2Finalists = null;    // runoff settings by candidate id, and the finalists they were set for
 const R1_SLIDERS = (profile) => sliderDefs(1, 10, "Peronism? (1: hardline anti-Peronist, 10: hardline Kirchnerist)", profile);
 
 function updateR1Controls() {
@@ -739,21 +786,75 @@ function renderRound1(cands, sim) {
     v.innerHTML = `🎉 ${name(o.first)} wins in the first round with ${o.s1.toFixed(2)}% ` +
       (o.outright === "45" ? "(45% or more of the positive votes)." : `(more than 40% and ${o.lead.toFixed(1)} points ahead of ${name(o.second)}).`) + " No runoff is needed.";
     box.hidden = true;
+    lastR1 = null;
   } else {
     v.className = "verdict tie";
     v.innerHTML = `🗳️ No outright winner: ${name(o.first)} (${o.s1.toFixed(2)}%) and ${name(o.second)} (${o.s2.toFixed(2)}%) go to a runoff. ` +
       `${name(o.first)} needed 45%, or more than 40% with a lead of more than 10 points (the lead was ${o.lead.toFixed(1)}).`;
+    lastR1 = { cands, sim };
+    buildRunoffControls(cands, sim);
     renderRunoffProjection(cands, sim);
     box.hidden = false;
   }
   $("results1").hidden = false;
 }
 
+// ----- Runoff settings panel: endorsements, drop-out and turnout -----
+function readRunoffOptions() {
+  const rules = {};
+  for (const [id, rule] of Object.entries(r2Rules)) {
+    const sel = $(`r2-rule-${id}`);
+    if (sel) rules[id] = { mode: sel.value, pct: parseInt($(`r2-custom-${id}`).value, 10) };
+  }
+  return { rules, pull: parseInt($("r2-pull").value, 10) / 100, turnout: parseInt($("r2-turnout").value, 10),
+           drop: parseInt($("r2-drop").value, 10) / 100 };
+}
+
+function recalcRunoff() {
+  if (!lastR1) return;
+  $("r2-pull-val").textContent = $("r2-pull").value + "%";
+  const t = parseInt($("r2-turnout").value, 10);
+  $("r2-turnout-val").textContent = (t > 0 ? "+" : "") + t + "%";
+  $("r2-drop-val").textContent = $("r2-drop").value + "%";
+  renderRunoffProjection(lastR1.cands, lastR1.sim);
+}
+
+function buildRunoffControls(cands, sim) {
+  const o = r1Outcome(sim), a = cands[o.first], b = cands[o.second];
+  // endorsements only make sense for the same finalists as before
+  const key = [a.id, b.id].join("-");
+  if (r2Finalists !== key) { r2Rules = {}; r2Finalists = key; }
+  const box = $("r1-runoff-rules"); box.innerHTML = "";
+  cands.forEach((c, i) => {
+    if (i === o.first || i === o.second) return;
+    r2Rules[c.id] = r2Rules[c.id] || { mode: "model", pct: 50 };
+    const rule = r2Rules[c.id];
+    const row = el("div", "rule", `<span class="who">${dot(c.color)}${esc(c.name)} <small>(${(100 * sim.shares[i]).toFixed(1)}% in round 1)</small></span>
+      <select id="r2-rule-${c.id}" aria-label="What ${esc(c.name)} does">
+        <option value="model">Voters decide on their own</option>
+        <option value="A">Endorses ${esc(a.name)}</option>
+        <option value="B">Endorses ${esc(b.name)}</option>
+        <option value="neutral">Stays neutral (more stay home)</option>
+        <option value="custom">Custom split</option>
+      </select>
+      <span class="custom" id="r2-customwrap-${c.id}" hidden><input type="range" id="r2-custom-${c.id}" min="0" max="100" step="5" value="${rule.pct}" aria-label="Percent to ${esc(a.name)}" />
+        <b id="r2-custom-${c.id}-val">${rule.pct}%</b> to ${esc(a.name)}</span>`);
+    box.appendChild(row);
+    const sel = row.querySelector("select"), cw = row.querySelector(".custom"), rg = row.querySelector("input");
+    sel.value = rule.mode;
+    cw.hidden = rule.mode !== "custom";
+    sel.addEventListener("change", () => { rule.mode = sel.value; cw.hidden = sel.value !== "custom"; recalcRunoff(); });
+    rg.addEventListener("input", () => { rule.pct = parseInt(rg.value, 10); $(`r2-custom-${c.id}-val`).textContent = rule.pct + "%"; recalcRunoff(); });
+  });
+  $("r2-pull-val").textContent = $("r2-pull").value + "%";
+}
+
 function renderRunoffProjection(cands, sim) {
-  const pr = projectRunoff(sim, cands, currentStates);
+  const pr = projectRunoff(sim, cands, currentStates, readRunoffOptions());
   const [a, b] = pr.finalists, na = esc(cands[a].name), nb = esc(cands[b].name);
-  $("r1-runoff-note").textContent = "The votes of the eliminated candidates (and the Others) are split between the two finalists by how close " +
-    "each finalist is to them on the five issues, with Peronism counting double. Runoff turnout is the same as the first round's positive votes.";
+  $("r1-runoff-note").textContent = "By default the votes of the eliminated candidates (and the Others) are split between the two finalists by how close " +
+    "each finalist is to them on the five issues, with Peronism counting double, and voters far from both finalists may stay home. " +
+    "Use the settings below to have a candidate endorse a finalist, stay neutral or set a custom split.";
   const list = $("r1-runoff-list"); list.innerHTML = "";
   for (const r of pr.results) {
     const w = r.winner === 0 ? a : b;
@@ -767,6 +868,9 @@ function renderRunoffProjection(cands, sim) {
     `<div>${dot(cands[a].color)}${na}: ${fmtVotes(pr.votes[0])} votes (${s[0].toFixed(2)}%), won ${pr.won[0]} of 24 districts</div>` +
     `<div>${dot(cands[b].color)}${nb}: ${fmtVotes(pr.votes[1])} votes (${s[1].toFixed(2)}%), won ${pr.won[1]} of 24 districts</div>`;
   stackedBar($("r1-runoff-bar"), [{ label: cands[a].name, share: s[0], color: cands[a].color }, { label: cands[b].name, share: s[1], color: cands[b].color }]);
+  const chg = pr.turnoutChange;
+  $("r1-runoff-turnout").textContent = `Positive votes in the runoff: ${fmtVotes(pr.total)} (first round: ${fmtVotes(pr.firstRoundTotal)}, ` +
+    `${chg >= 0 ? "+" : ""}${chg.toFixed(1)}%). Eliminated voters who dropped out: ${fmtVotes(pr.dropped)}.`;
   const real = ELECTION_DATA[currentPreset];
   const same = real && isRunoff(currentPreset) && [real.c1, real.c2].includes(cands[a].name) && [real.c1, real.c2].includes(cands[b].name);
   $("r1-runoff-real").textContent = same
@@ -789,6 +893,7 @@ function applyPreset(key) {
   $("env-note").textContent = ROUND_ENV_NOTE[currentRound];
   $("results").hidden = true;
   $("results1").hidden = true;
+  lastR1 = null; r2Rules = {}; r2Finalists = null;
   if (currentRound === "first") return applyFirstRound(key);
   const p = presetData(key);
   DEFAULT_STATES = deepCopy(p.states);
@@ -855,6 +960,7 @@ function init() {
   $("state-reset-all").addEventListener("click", () => resetStates(true));
   $("restart").addEventListener("click", reset);
   $("add-cand").addEventListener("click", addR1Candidate);
+  for (const id of ["r2-pull", "r2-turnout", "r2-drop"]) $(id).addEventListener("input", recalcRunoff);
   $("run").addEventListener("click", () => {
     if (currentRound === "first") {
       renderRound1(readR1Candidates(), simulateRound1(readR1Candidates(), currentStates, envValue(), r1Setup, DEFAULT_STATES));
@@ -869,5 +975,5 @@ function init() {
 }
 
 if (typeof document !== "undefined") init();
-if (typeof module !== "undefined") module.exports = { PROVINCES, CURRENT_STATES, SCENARIOS, r1Preset, simulateRound1, r1Outcome, projectRunoff, R1_PROFILES, R2_WEIGHTS, AXES, simulate, stateMargin, approvalSwing, presetData, ELECTION_KEYS, RUNOFF_KEYS, TYPICAL_NP, TYPICAL_PJ,
+if (typeof module !== "undefined") module.exports = { PROVINCES, CURRENT_STATES, SCENARIOS, r1Preset, simulateRound1, r1Outcome, projectRunoff, R1_PROFILES, R2_WEIGHTS, AXES, R2_DROP, R2_PULL, simulate, stateMargin, approvalSwing, presetData, ELECTION_KEYS, RUNOFF_KEYS, TYPICAL_NP, TYPICAL_PJ,
   setDefaults: (s) => { DEFAULT_STATES = deepCopy(s); currentStates = deepCopy(s); } };

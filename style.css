@@ -107,3 +107,12 @@ h2 { margin: 36px 0 12px; font-size: 1.25rem; }
 .national-bar .seg { display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: .85rem; color: #1c2230; overflow: hidden; white-space: nowrap; }
 .national-bar .seg.np { background: var(--np); }
 .national-bar .seg.pj { background: var(--pj); }
+
+#r1-runoff-settings { margin: 0 0 16px; }
+#r1-runoff-settings .field { margin: 12px 0 0; }
+#r1-runoff-settings input[type="range"] { accent-color: var(--text); width: 100%; }
+.rule { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.rule .who { flex: 1 1 220px; }
+.rule select { flex: 1 1 220px; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--text); font-size: .95rem; }
+.rule .custom { flex: 1 1 100%; display: flex; align-items: center; gap: 10px; }
+.rule .custom input { flex: 1; accent-color: var(--text); }

@@ -74,10 +74,23 @@ main candidate. The constants (`R1_*` in `script.js`) are rough calibrations, no
 real candidates (`R1_PROFILES`) are the author's estimates, like the province stances.
 
 **How the runoff projection works.** In each province every eliminated candidate's votes are split between the two finalists by how
-close each finalist is to them on the five issues (Peronism counts double); "Others" split by the province's stances. Runoff turnout is
-the first round's positive votes. The two settings (`R2_TAU`, `R2_PROVINCE`) were tuned on the only two real runoffs, so treat
-the check as in-sample: from the real first rounds it gives Macri 50.8% (real 51.3%) and Milei 55.8% (real 55.7%), about 2-3
-points off per province. 2003, 2007 and 2011 have no real runoff to compare with.
+close each finalist is to them on the five issues (Peronism counts double); "Others" split by the province's stances. The runoff is
+counted on positive votes only, like the real ones. `R2_TAU` was tuned on the only two real runoffs, so treat that check as
+in-sample: from the real first rounds it gives Macri 50.6% (real 51.3%) and Milei 55.8% (real 55.7%), about 2-3 points off per
+province. 2003, 2007 and 2011 have no real runoff to compare with.
+
+**Runoff settings** (shown under the runoff projection, they recalculate it live without re-running round one):
+- *Per eliminated candidate:* voters decide on their own (default); **endorses** finalist A or B (a share of their voters, set by
+  "How many voters follow an endorsement", default 50%, follow it and the rest decide on their own); **stays neutral** (10 extra points of
+  their voters stay home); or a **custom split** (a fixed percentage to A, the rest to B). Settings are kept when you re-run round one
+  with the same finalists and reset when the finalists change.
+- *Drop-out:* voters far from BOTH finalists may not vote for either: drop-out = the slider (default 40%) x their distance to the
+  nearest finalist as a share of the largest possible distance. "Others" count as moderately far. Dropped voters leave the count.
+- *Turnout:* scales every vote up or down by the slider (positive votes versus the first round), which changes the totals but not the
+  shares. The result shows the runoff's positive votes, the change from round one and how many voters dropped out.
+- *Calibration, honestly:* with the defaults the national shares of both real runoffs stay within 0.7 points. The positive-vote total moves
+  by -2.8% (2015) and -2.1% (2023), against real changes of +0.5% and -3.0%. 2023 is close; 2015 is not, because its blank
+  first-round votes became positive ones. One drop-out rule cannot fit both, so treat the total as rough and set your own with the slider.
 
 ## How margins work
 Margins are in percentage points of the two candidates' combined votes (NP minus PJ):
