@@ -3,17 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Argentina Runoff Game</title>
+  <title>Argentina Election Simulator</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <main class="wrap">
     <header>
-      <h1>Argentina Runoff Game</h1>
-      <p class="sub">Simulate a presidential first round or second round (ballotage) based on your candidates' stances!</p>
+      <h1>Argentina Election Simulator</h1>
+      <p class="sub">Simulate Argentine presidential elections, the Chamber of Deputies and the Senate, from 2003 to today.</p>
       <button id="restart" class="btn ghost" type="button">Restart Game</button>
     </header>
 
+    <section class="panel" id="office-panel">
+      <h3>Office</h3>
+      <div class="field">
+        <label for="office-select">What are you simulating?</label>
+        <select id="office-select">
+          <option value="pres">President (first round and runoff)</option>
+          <option value="dip">Chamber of Deputies (and who controls it)</option>
+          <option value="sen">Senate (and who controls it)</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="leg-section" hidden></section>
+
+    <div id="pres-mode">
     <section class="panel" id="preset-panel">
       <h3>Election</h3>
       <div class="field">
@@ -128,9 +143,12 @@
         <div id="r1-runoff-verdict" class="verdict"></div>
       </div>
     </section>
+    </div>
   </main>
 
   <script src="elections.js"></script>
   <script src="script.js"></script>
+  <script src="legislative.js"></script>
+  <script src="legislature.js"></script>
 </body>
 </html>

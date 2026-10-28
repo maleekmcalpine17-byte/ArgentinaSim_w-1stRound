@@ -1,0 +1,263 @@
+office,year,province,bloc,votes,seats
+dip,2021,Buenos Aires Province,pro,3550321,15
+dip,2021,Buenos Aires Province,fpv,3444446,15
+dip,2021,Buenos Aires Province,libert,933380,2
+dip,2021,Buenos Aires Province,left,609158,2
+dip,2021,Buenos Aires Province,fedper,389295,1
+dip,2021,Buenos Aires City (CABA),pro,867044,7
+dip,2021,Buenos Aires City (CABA),fpv,461514,3
+dip,2021,Buenos Aires City (CABA),libert,313808,2
+dip,2021,Buenos Aires City (CABA),left,142581,1
+dip,2021,Buenos Aires City (CABA),prov,56369,0
+dip,2021,Catamarca,pro,75625,1
+dip,2021,Catamarca,fpv,103144,2
+dip,2021,Catamarca,left,8728,0
+dip,2021,Catamarca,fedper,10150,0
+dip,2021,Catamarca,prov,5991,0
+dip,2021,Chaco,pro,258654,2
+dip,2021,Chaco,fpv,269441,2
+dip,2021,Chaco,left,15169,0
+dip,2021,Chaco,fedper,12464,0
+dip,2021,Chaco,prov,49502,0
+dip,2021,Chubut,pro,110649,1
+dip,2021,Chubut,fpv,82134,1
+dip,2021,Chubut,left,24941,0
+dip,2021,Chubut,prov,73675,0
+dip,2021,Córdoba,pro,1064246,6
+dip,2021,Córdoba,fpv,206795,1
+dip,2021,Córdoba,libert,135822,0
+dip,2021,Córdoba,left,69755,0
+dip,2021,Córdoba,fedper,491969,2
+dip,2021,Corrientes,pro,325710,2
+dip,2021,Corrientes,fpv,214694,1
+dip,2021,Corrientes,prov,14146,0
+dip,2021,Entre Ríos,pro,436013,3
+dip,2021,Entre Ríos,fpv,276883,2
+dip,2021,Entre Ríos,libert,29569,0
+dip,2021,Entre Ríos,left,27946,0
+dip,2021,Entre Ríos,fedper,16710,0
+dip,2021,Entre Ríos,prov,11282,0
+dip,2021,Formosa,pro,134445,1
+dip,2021,Formosa,fpv,186991,1
+dip,2021,Formosa,prov,2030,0
+dip,2021,Jujuy,pro,198300,1
+dip,2021,Jujuy,fpv,104496,1
+dip,2021,Jujuy,left,100892,1
+dip,2021,La Pampa,pro,101717,2
+dip,2021,La Pampa,fpv,89813,1
+dip,2021,La Pampa,left,9147,0
+dip,2021,La Pampa,fedper,6199,0
+dip,2021,La Pampa,prov,4984,0
+dip,2021,La Rioja,pro,49837,0
+dip,2021,La Rioja,fpv,100055,2
+dip,2021,La Rioja,libert,17092,0
+dip,2021,La Rioja,left,7721,0
+dip,2021,La Rioja,prov,3446,0
+dip,2021,Mendoza,pro,490182,3
+dip,2021,Mendoza,fpv,282695,2
+dip,2021,Mendoza,libert,38210,0
+dip,2021,Mendoza,left,48395,0
+dip,2021,Mendoza,prov,129274,0
+dip,2021,Misiones,pro,257323,2
+dip,2021,Misiones,fpv,96310,0
+dip,2021,Misiones,libert,22996,0
+dip,2021,Misiones,left,22336,0
+dip,2021,Misiones,prov,230817,1
+dip,2021,Neuquén,pro,140303,1
+dip,2021,Neuquén,fpv,66070,1
+dip,2021,Neuquén,left,31153,0
+dip,2021,Neuquén,fedper,30884,0
+dip,2021,Neuquén,prov,112027,1
+dip,2021,Río Negro,pro,102579,1
+dip,2021,Río Negro,fpv,101844,0
+dip,2021,Río Negro,left,18192,0
+dip,2021,Río Negro,fedper,7749,0
+dip,2021,Río Negro,prov,146657,1
+dip,2021,Salta,pro,188162,1
+dip,2021,Salta,fpv,205853,2
+dip,2021,Salta,left,46397,0
+dip,2021,Salta,prov,187026,0
+dip,2021,San Juan,pro,173069,1
+dip,2021,San Juan,fpv,179000,2
+dip,2021,San Juan,left,23487,0
+dip,2021,San Juan,fedper,35142,0
+dip,2021,San Luis,pro,140563,2
+dip,2021,San Luis,fpv,128801,1
+dip,2021,San Luis,left,5365,0
+dip,2021,Santa Cruz,pro,57921,1
+dip,2021,Santa Cruz,fpv,45436,1
+dip,2021,Santa Cruz,left,11660,0
+dip,2021,Santa Cruz,prov,50058,1
+dip,2021,Santa Fe,pro,733360,5
+dip,2021,Santa Fe,fpv,570498,3
+dip,2021,Santa Fe,libert,102613,0
+dip,2021,Santa Fe,left,39063,0
+dip,2021,Santa Fe,fedper,222740,1
+dip,2021,Santa Fe,prov,150692,0
+dip,2021,Santiago del Estero,pro,72932,0
+dip,2021,Santiago del Estero,fpv,402802,3
+dip,2021,Santiago del Estero,libert,4173,0
+dip,2021,Santiago del Estero,left,5444,0
+dip,2021,Santiago del Estero,fedper,26307,0
+dip,2021,Santiago del Estero,prov,48085,0
+dip,2021,Tierra del Fuego,pro,27584,1
+dip,2021,Tierra del Fuego,fpv,37692,1
+dip,2021,Tierra del Fuego,libert,6403,0
+dip,2021,Tierra del Fuego,left,3883,0
+dip,2021,Tierra del Fuego,prov,19502,0
+dip,2021,Tucumán,pro,386819,2
+dip,2021,Tucumán,fpv,408245,2
+dip,2021,Tucumán,libert,101350,0
+dip,2021,Tucumán,left,34105,0
+dip,2021,Tucumán,fedper,37377,0
+sen,2021,Catamarca,pro,76354,1
+sen,2021,Catamarca,fpv,104412,2
+sen,2021,Catamarca,fedper,10167,0
+sen,2021,Catamarca,prov,14753,0
+sen,2021,Chubut,pro,110997,2
+sen,2021,Chubut,fpv,82674,1
+sen,2021,Chubut,prov,99443,0
+sen,2021,Córdoba,pro,1063595,2
+sen,2021,Córdoba,fpv,206300,0
+sen,2021,Córdoba,fedper,491029,1
+sen,2021,Córdoba,libert,135703,0
+sen,2021,Córdoba,prov,69644,0
+sen,2021,Corrientes,pro,328217,2
+sen,2021,Corrientes,fpv,215822,1
+sen,2021,Corrientes,fedper,13934,0
+sen,2021,La Pampa,pro,102218,2
+sen,2021,La Pampa,fpv,89409,1
+sen,2021,La Pampa,fedper,6206,0
+sen,2021,La Pampa,prov,14005,0
+sen,2021,Mendoza,pro,490754,2
+sen,2021,Mendoza,fpv,284119,1
+sen,2021,Mendoza,libert,37992,0
+sen,2021,Mendoza,prov,177230,0
+sen,2021,Santa Fe,pro,738568,2
+sen,2021,Santa Fe,fpv,589837,1
+sen,2021,Santa Fe,fedper,228459,0
+sen,2021,Santa Fe,libert,98498,0
+sen,2021,Santa Fe,prov,172507,0
+sen,2021,Tucumán,pro,379739,1
+sen,2021,Tucumán,fpv,401344,2
+sen,2021,Tucumán,fedper,42466,0
+sen,2021,Tucumán,libert,107829,0
+sen,2021,Tucumán,prov,34713,0
+dip,2023,Buenos Aires Province,fpv,4094665,16
+dip,2023,Buenos Aires Province,libert,2382198,9
+dip,2023,Buenos Aires Province,pro,2484593,9
+dip,2023,Buenos Aires Province,prov,405973,1
+dip,2023,Buenos Aires City (CABA),fpv,577225,4
+dip,2023,Buenos Aires City (CABA),libert,377451,2
+dip,2023,Buenos Aires City (CABA),pro,782984,6
+dip,2023,Buenos Aires City (CABA),prov,99947,0
+dip,2023,Catamarca,fpv,102943,2
+dip,2023,Catamarca,libert,50657,0
+dip,2023,Catamarca,pro,42415,0
+dip,2023,Chaco,fpv,305229,1
+dip,2023,Chaco,libert,192284,1
+dip,2023,Chaco,pro,172929,1
+dip,2023,Chubut,fpv,101885,1
+dip,2023,Chubut,libert,118246,1
+dip,2023,Chubut,pro,71333,1
+dip,2023,Chubut,prov,18698,0
+dip,2023,Córdoba,fpv,286615,1
+dip,2023,Córdoba,libert,751428,3
+dip,2023,Córdoba,pro,509837,2
+dip,2023,Córdoba,fedper,679603,3
+dip,2023,Córdoba,prov,48057,0
+dip,2023,Corrientes,fpv,253334,2
+dip,2023,Corrientes,libert,178855,1
+dip,2023,Corrientes,pro,222006,1
+dip,2023,Entre Ríos,fpv,293605,2
+dip,2023,Entre Ríos,libert,174787,1
+dip,2023,Entre Ríos,pro,269189,1
+dip,2023,Formosa,fpv,184028,2
+dip,2023,Formosa,libert,101637,1
+dip,2023,Formosa,pro,53155,0
+dip,2023,Jujuy,fpv,123971,1
+dip,2023,Jujuy,libert,152853,1
+dip,2023,Jujuy,pro,96158,1
+dip,2023,Jujuy,prov,28027,0
+dip,2023,La Pampa,fpv,81094,1
+dip,2023,La Pampa,pro,52574,1
+dip,2023,La Pampa,prov,5796,0
+dip,2023,La Rioja,fpv,93668,2
+dip,2023,La Rioja,libert,85794,1
+dip,2023,La Rioja,pro,28656,0
+dip,2023,La Rioja,fedper,17603,0
+dip,2023,Mendoza,fpv,259263,1
+dip,2023,Mendoza,libert,462657,3
+dip,2023,Mendoza,pro,287020,1
+dip,2023,Mendoza,prov,62566,0
+dip,2023,Misiones,fpv,252335,3
+dip,2023,Misiones,pro,109856,1
+dip,2023,Misiones,prov,26776,0
+dip,2023,Neuquén,fpv,111828,1
+dip,2023,Neuquén,libert,136290,1
+dip,2023,Neuquén,pro,79773,0
+dip,2023,Neuquén,prov,56507,0
+dip,2023,Río Negro,fpv,134429,1
+dip,2023,Río Negro,libert,126879,1
+dip,2023,Río Negro,pro,67986,1
+dip,2023,Río Negro,prov,80059,0
+dip,2023,Salta,fpv,280111,2
+dip,2023,Salta,libert,305397,2
+dip,2023,Salta,pro,101188,0
+dip,2023,Salta,fedper,40723,0
+dip,2023,Salta,prov,40487,0
+dip,2023,San Juan,fpv,154715,1
+dip,2023,San Juan,libert,153576,1
+dip,2023,San Juan,pro,113662,1
+dip,2023,San Luis,fpv,83178,1
+dip,2023,San Luis,libert,125123,1
+dip,2023,San Luis,pro,71718,0
+dip,2023,San Luis,fedper,16323,0
+dip,2023,San Luis,prov,8256,0
+dip,2023,Santa Cruz,fpv,45182,1
+dip,2023,Santa Cruz,pro,18595,0
+dip,2023,Santa Cruz,prov,59391,1
+dip,2023,Santa Fe,fpv,584589,3
+dip,2023,Santa Fe,libert,649809,3
+dip,2023,Santa Fe,pro,541534,3
+dip,2023,Santa Fe,fedper,184680,1
+dip,2023,Santa Fe,prov,48469,0
+dip,2023,Santiago del Estero,fpv,417016,4
+dip,2023,Santiago del Estero,pro,50115,0
+dip,2023,Tierra del Fuego,fpv,34206,2
+dip,2023,Tierra del Fuego,libert,30534,1
+dip,2023,Tierra del Fuego,pro,13254,0
+dip,2023,Tierra del Fuego,fedper,7908,0
+dip,2023,Tierra del Fuego,prov,14337,0
+dip,2023,Tucumán,fpv,443377,3
+dip,2023,Tucumán,libert,286594,1
+dip,2023,Tucumán,pro,171603,1
+dip,2023,Tucumán,prov,43002,0
+sen,2023,Buenos Aires Province,fpv,4135519,2
+sen,2023,Buenos Aires Province,libert,2386048,0
+sen,2023,Buenos Aires Province,pro,2479071,1
+sen,2023,Buenos Aires Province,prov,396500,0
+sen,2023,Formosa,fpv,184475,2
+sen,2023,Formosa,libert,103030,1
+sen,2023,Formosa,pro,52983,0
+sen,2023,Jujuy,fpv,123453,1
+sen,2023,Jujuy,libert,153333,2
+sen,2023,Jujuy,pro,97481,0
+sen,2023,Jujuy,prov,29987,0
+sen,2023,La Rioja,fpv,95733,2
+sen,2023,La Rioja,libert,85152,1
+sen,2023,La Rioja,pro,27026,0
+sen,2023,La Rioja,prov,17653,0
+sen,2023,Misiones,fpv,253428,2
+sen,2023,Misiones,pro,109836,1
+sen,2023,Misiones,prov,25985,0
+sen,2023,San Juan,fpv,155266,2
+sen,2023,San Juan,libert,153951,1
+sen,2023,San Juan,pro,113509,0
+sen,2023,San Luis,fpv,82957,1
+sen,2023,San Luis,libert,126012,2
+sen,2023,San Luis,pro,70338,0
+sen,2023,San Luis,prov,24718,0
+sen,2023,Santa Cruz,fpv,45413,1
+sen,2023,Santa Cruz,pro,18826,0
+sen,2023,Santa Cruz,prov,62643,2

@@ -1,4 +1,4 @@
-# Argentina Runoff Game
+# Argentina Election Simulator
 
 A what-if simulator for Argentina's presidential second round (ballotage), rebuilt from Election Game 2024.
 Pick two candidates, set their stances and approval, and see how every province votes and who wins the national popular vote.
@@ -91,6 +91,20 @@ province. 2003, 2007 and 2011 have no real runoff to compare with.
 - *Calibration, honestly:* with the defaults the national shares of both real runoffs stay within 0.7 points. The positive-vote total moves
   by -2.8% (2015) and -2.1% (2023), against real changes of +0.5% and -3.0%. 2023 is close; 2015 is not, because its blank
   first-round votes became positive ones. One drop-out rule cannot fit both, so treat the total as rough and set your own with the slider.
+
+## Chamber of Deputies and Senate
+
+Pick **Office** at the top of the page. For each election from 2005 to 2023 the game has the real list-by-list results in every province.
+
+- **Deputies**: 127 or 130 of the 257 seats are renewed every two years. Seats in each province go by D'Hondt, with the 3%-of-registered-voters threshold (it can be switched off).
+- **Senate**: eight provinces vote each time; the first list gets 2 of the 3 seats and the second list gets 1.
+- **Swing sliders**: a national swing and an optional swing per province move votes between Peronist and anti-Peronist parties (every list moves according to its bloc), and seats are recomputed.
+- **Congress control**: the chamber is the seats just elected plus the real earlier results that are still in office (previous election for Deputies, previous two for the Senate). Control of Deputies is shown from 2007 and of the Senate from 2009, because the data starts in 2005. A dashed line marks the majority (129 / 37).
+
+Data and limits:
+- 2005-2019 come from polAr provisional counts (`tools/extract_legislative.py`, lists under 0.5% are grouped as "Other lists"). 2021 and 2023 only have bloc totals, transcribed from Wikipedia into `data/legislative_2021_2023.csv`; there the swing changes seats by the change a D'Hondt run on the blocs would give (a delta on top of the real seats).
+- Blocs are a judgment call made by keyword rules (`tools/blocs.py`): lists that changed names or coalitions are grouped approximately, so "Peronist" and "anti-Peronist" totals can be a few seats off real party blocs, and the seats carried over come from the same grouping.
+- 2003 and the 2005 holdover seats are not included. `python3 -I tools/build_legislative.py` rebuilds `legislative.js`.
 
 ## How margins work
 Margins are in percentage points of the two candidates' combined votes (NP minus PJ):

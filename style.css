@@ -116,3 +116,11 @@ h2 { margin: 36px 0 12px; font-size: 1.25rem; }
 .rule select { flex: 1 1 220px; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--text); font-size: .95rem; }
 .rule .custom { flex: 1 1 100%; display: flex; align-items: center; gap: 10px; }
 .rule .custom input { flex: 1; accent-color: var(--text); }
+
+/* legislative mode */
+.seatbar { position: relative; display: flex; height: 38px; border-radius: 8px; overflow: hidden; margin: 10px 0 6px; border: 1px solid var(--line); }
+.seatbar .seg { display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: .85rem; color: #1c2230; overflow: hidden; }
+.seatbar .majority { position: absolute; top: 0; bottom: 0; width: 0; border-left: 3px dashed var(--text); pointer-events: none; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: .85rem; color: var(--muted); margin-bottom: 8px; }
+.chip { display: inline-block; font-size: .8rem; font-weight: 600; padding: 1px 9px; margin: 3px 4px 0 0; border-radius: 999px; border: 1px solid var(--c); }
+.margin.tie { background: var(--warn-bg); color: var(--warn-tx); }
